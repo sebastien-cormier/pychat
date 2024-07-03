@@ -3,8 +3,8 @@ import threading
 
 def main():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    host = '192.168.1.39'
-    port = 12345
+    host = '192.168.1.29'
+    port = 12346
     client_socket.connect((host, port))
 
     pseudo = input("Votre pseudo : ")
